@@ -1,0 +1,27 @@
+{
+    "name": "orh/badges",
+    "type": "project",
+    "description": "The Project Badges.",
+    "keywords": [
+        "project",
+        "badges",
+        "project-badges"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "ext-yaf": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.5.0",
+        "friendsofphp/php-cs-fixer": "~2.17.0"
+    },
+    "autoload": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
